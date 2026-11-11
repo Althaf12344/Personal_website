@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="faceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#avatarGrad)"/>
+  
+  <!-- Academic geometric pattern overlay -->
+  <g opacity="0.15" stroke="#ffffff" stroke-width="1.5" fill="none">
+    <circle cx="200" cy="200" r="160"/>
+    <circle cx="200" cy="200" r="120"/>
+    <circle cx="200" cy="200" r="80"/>
+    <line x1="40" y1="200" x2="360" y2="200"/>
+    <line x1="200" y1="40" x2="200" y2="360"/>
+  </g>
+
+  <!-- Stylized Scholar Silhouette -->
+  <g fill="url(#faceGrad)">
+    <!-- Head -->
+    <circle cx="200" cy="155" r="55" />
+    
+    <!-- Glasses / Academic touch -->
+    <path d="M 170 150 Q 185 145 200 150 Q 215 145 230 150" stroke="#1e293b" stroke-width="4" fill="none"/>
+    <circle cx="178" cy="153" r="12" stroke="#1e293b" stroke-width="3" fill="#ffffff" fill-opacity="0.3"/>
+    <circle cx="222" cy="153" r="12" stroke="#1e293b" stroke-width="3" fill="#ffffff" fill-opacity="0.3"/>
+
+    <!-- Shoulders & Coat -->
+    <path d="M 105 340 C 110 245 150 230 200 230 C 250 230 290 245 295 340 Z" />
+    <!-- Collar & Tie -->
+    <polygon points="185,230 200,280 215,230" fill="#cbd5e1"/>
+    <polygon points="196,250 204,250 202,310 198,310" fill="#1e3a8a"/>
+  </g>
+</svg>
